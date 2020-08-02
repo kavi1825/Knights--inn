@@ -1,0 +1,427 @@
+#unfloated-container{
+margin: -600px auto 0 auto;
+padding: 0;
+width: 80%;
+height: 100%;
+}
+
+#container{
+margin: 0;
+padding: 0 0 0 0;
+width: 100%;
+}
+
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+.header.
+{
+	background: rgba(10,60,100,0.4);
+	height: 100vh;
+}
+
+.video-background
+{
+	position: absolute;
+	margin-top: -2em;	
+	max-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -1;
+}
+@media(max-aspect-ratio:16/9)
+{
+	.video-background
+	{
+		width: 80%;
+		height: 100%;
+	}
+} 
+.btn { 
+        cursor: pointer; 
+        border: 2.5px solid #ffff; 
+        background-color: transparent; 
+        height: 50px; 
+        width: 150px; 
+        border-radius: 5%;
+        color: #ffff; 
+        font-size: 1em; 
+        position: absolute;
+        top: 2em;
+}
+.btn:hover{
+	background-color: white;
+	color:black;
+	-webkit-transform: scale(1.1)
+}
+.alignlogo{
+	position: relative;
+	margin-top: -3em;
+	margin-left:-0.5em;
+}
+.alignlogo:hover{
+	-webkit-transform: scale(1.1)
+}
+.bliss
+{
+	font-family:begade,sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+}
+.bliss:hover{
+    -webkit-transform: scale(1.2)
+}
+
+/* css for list*/
+.navbar{
+	background-color: rgba(0,0,0,.5);
+	position: absolute;
+	margin-top:25em;
+	height: 6em;
+	width: 100%;
+}
+.listspots{
+
+	color: yellow;
+	float: left;
+	position:relative;
+	margin-left: 24em;
+	margin-top: -1.23em;
+	font-size: 1.3em;	
+}
+.listspots:hover{
+    -webkit-transform: scale(1.2)
+}
+.listbooking{
+
+	color: yellow;
+	float: left;
+	position:relative;
+	margin-left:-12.5em;
+	margin-top: -1.23em;
+	font-size: 1.3em;
+}
+.listbooking:hover{
+    -webkit-transform: scale(1.2)
+}
+.listresidence{
+
+	color: yellow;
+	float: left;
+	position:relative;
+	margin-left: -21.8em;
+	margin-top: -1.23em;
+	font-size: 1.3em;
+}
+.listresidence:hover{
+    -webkit-transform: scale(1.2);
+}
+.listrestaurant{
+
+	color: yellow;
+	float: left;
+	position:absolute;
+	margin-left: -30.6em;
+	margin-top: -1.3em;
+	font-size: 1.3em;
+}
+.listrestaurant:hover{
+    -webkit-transform: scale(1.2)
+}
+/* content of home page*/
+.alignbackground{
+	position: relative;
+	margin-top: 30em;
+	width: 100%;
+	height: 200%;
+	background-color: #0000008e;
+
+}
+.aboutalone{
+	color: #688A08;
+	font-family: 'Oswald';
+	position: relative;
+	margin-top:-12em;
+	margin-left:8em;
+}
+.alignspot
+{
+	color: #688A08;
+	font-family: 'Oswald';
+	position: relative;
+	margin-top: 5em;
+	margin-left:28em;
+}
+.slideshow:hover{
+	-webkit-transform: scale(1.2);
+}
+.alignbooking
+{
+	color: #688A08;
+	font-family: 'Oswald';
+	position: relative;
+	margin-top: 7em;
+	margin-left:8em;
+}
+.aboutdetails{
+	word-wrap: break-word;
+	position: relative;
+	margin-left:11em;
+	margin-top: 0em;
+	font-size: 1.8em;
+	width: 32em;
+	height: 10em;
+	padding: 20px 20px 20px 20px;
+	border-top:5px solid grey ;
+	border-top-color: #A9E2F3;
+	border-bottom:5px solid grey;
+	border-bottom-color: #A9E2F3;
+}
+.spotsdetails{
+	
+	position: relative;
+	width: 48em;
+	height:15em;
+	margin-left:15.5em;
+	font-size: 1.3em;
+	padding: 20px 20px 20px 20px;
+	border:5px;
+	border-top:5px solid grey ;
+	border-top-color: #A9F5E1;
+	border-bottom:5px solid grey;
+	border-bottom-color: #A9F5E1;
+}
+.bookingdetails{
+	position: relative;
+	width: 48em;
+	height: 12em;
+	margin-left:15.5em;
+	font-size: 1.3em;
+	padding: 20px 20px 20px 20px;
+	border-top:5px solid grey ;
+	border-top-color: #A9E2F3;
+	border-bottom:5px solid grey;
+	border-bottom-color: #A9E2F3;
+}
+.alignresidence{
+	color: #688A08;
+	font-family: 'Oswald';
+	position: relative;
+	margin-top: 7em;
+	margin-left:28em;
+}
+.residencedetail{
+	word-wrap: break-word;
+	position: relative;
+	width: 48em;
+	height:15em;
+	margin-left:15.5em;
+	font-size: 1.3em;
+	padding: 20px 20px 20px 20px;
+	border:5px;
+	border-top:5px solid grey ;
+	border-top-color: #A9E2F3;
+	border-bottom:5px solid grey;
+	border-bottom-color: #A9E2F3;
+}
+.alignrestaurant
+{
+	color: #688A08;
+	font-family: 'Oswald';
+	position: relative;
+	margin-top: 7em;
+	margin-left:8em;
+}
+.residenceimg{
+	width:20em;
+	border-radius: 2%;
+	position:absolute;
+	margin-left: 0em;
+	top: 1.5em;
+}
+.residenceimg:hover{
+	transform: scale(1.2);	
+}
+.restaurantdetail{
+	word-wrap: break-word;
+	position: relative;
+	width: 48em;
+	height: 15em;
+	margin-left:15.5em;
+	font-size: 1.3em;
+	padding: 20px 20px 20px 20px;
+	border-top:5px solid grey ;
+	border-top-color: #A9E2F3;
+	border-bottom:5px solid grey;
+	border-bottom-color: #A9E2F3;
+}
+/* css for package*/
+
+.labeladult{
+
+	position: absolute;
+	margin-left: 8em;
+	margin-top: -7em;
+}
+.alignadult{
+	position: absolute;
+	margin-left: 8em;
+	margin-top: -5.5em;
+}
+.alignchild{
+	position: absolute;
+	margin-left: 20.5em;
+	margin-top: -5.5em;
+}
+.labelchild{
+	position: absolute;
+	margin-left: 20.5em;
+	margin-top: -7em;
+}
+.alignresult{
+	position: absolute;
+	margin-left:20.6em;
+	top: 5em;
+	height: 2em;
+}
+.alignresbutton:hover{
+    -webkit-transform: scale(1.1)
+}
+.alignresbutton{
+	position: absolute;
+	margin-left: 20.5em;
+	margin-top: 2em;
+	cursor: pointer; 
+    border: 2.5px solid #688A08; 
+    background-color: #688A08 ; 
+    height: 50px; 
+    width: 110px; 
+    border-radius: 5%;
+   	color: white; 
+    font-size: 20px; 
+}
+.alignbutton{
+	position: absolute;
+	left: 31.2em;
+	margin-top:-3em;
+	cursor: pointer; 
+    border: 2.5px solid #688A08; 
+    background-color: #688A08 ; 
+    height: 50px; 
+    width: 110px; 
+    border-radius: 5%;
+   	color: white; 
+    font-size: 20px; 
+}
+.alignbutton:hover{
+    -webkit-transform: scale(1.1)
+}
+.alignbookbtn{
+	width: 10em;
+	margin-left: 5em;
+	background-color: #F60B0B;
+	height: 2em;
+	border-color: red;
+	color: white;
+	border-bottom-right-radius: 2em;
+	border-top-right-radius: 2em;
+	border-bottom-left-radius: 2em;
+	border-top-left-radius: 2em;
+}
+.alignbookbtn:hover{
+	-webkit-transform: scale(1.1);
+	box-shadow:#F60B0B;
+}
+
+.counter-section{
+margin: 5% auto;
+color: #688A08;
+}
+.icon-box{
+border: 2px solid gray;
+height: 100px;
+width: 100px;
+margin: 30px auto;
+transform: rotate(45deg);
+}
+.icon-box .fa{
+font-size: 40px;
+margin: 25px auto;
+color: #688A08;
+transform: rotate(-45deg);
+}
+.counter-box p{
+font-size: 20px;
+align-self: center;
+}
+.counter-box .counter{
+font-size: 60px;
+}
+.shape{
+	position: relative;
+	margin-top: 5em;
+}
+.link:hover{
+	-webkit-transform: scale(1.5)
+}
+
+
+/* Footer classes*/
+.footerbg{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	margin-bottom: -5em;
+}
+.alignfootlogo{
+	position: relative;
+	margin-top: -23em;
+	margin-left: 43.5em;		
+	width: 9em;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: transparent;
+  color: #007bff;;
+  position: relative;
+  margin-bottom: -15em;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: transparent;
+  color: #007bff;;
+}
+.fa-youtube{
+  background: transparent;
+  color: #007bff;;
+}
+.fa-instgram{
+  background: transparent;
+  color: #007bff;;
+}
+.alignfb{
+	position: relative;
+	margin-top: -28em;
+	margin-left: 62em;		
+	width: 9em;
+}
